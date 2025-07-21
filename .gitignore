@@ -1,0 +1,10 @@
+# Ignore sensitive configs
+.env
+includes/db.php
+
+# Ignore logs
+*.log
+
+# Ignore IDE settings
+.vscode/
+.idea/
