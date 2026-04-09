@@ -2,7 +2,7 @@
 session_start();
 // if session not set then user is redirected to index.php for login
 if (!isset($_SESSION['email'])) {
-    header("location:index.php");
+    header("location: index.php");
 }
 ?>
 
@@ -53,7 +53,7 @@ if (!isset($_SESSION['email'])) {
                         echo '<li class="nav-item"><a class="nav-link" href="admin.php">Movies</a></li>';    
                     }
                     ?>
-                    <!-- if login as admin than Tickets and About panels are visibled for user -->
+                    <!-- if login as user than Tickets and About panels are visibled for user -->
                     <?php
                     if (isset($_SESSION['admin']) && $_SESSION['admin'] == 0){                        
                         echo '<li class="nav-item"><a class="nav-link" href="ticket.php">Tickets</a></li>';
