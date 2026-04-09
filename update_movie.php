@@ -1,5 +1,5 @@
 <?php
-include('php/_config.php');
+include('partials/_config.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $movie_id = $_POST['movie_id'];

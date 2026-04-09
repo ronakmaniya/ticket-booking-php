@@ -16,14 +16,14 @@ session_start();
     
     <div class="main">
     <video autoplay muted loop id="bg-video">
-                <source src="graphics/logvideo.mp4" type="video/mp4">
+                <source src="static/logvideo.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.  
             </video>    
         <div class="login1">
 
             <?php
             // to connect with database
-            require_once("php/_config.php");
+            require_once("partials/_config.php");
 
             if(isset($_POST['submit'])){
                 // mysqli_real_escape_string is a PHP function helps to prevent SQL injection attacks.

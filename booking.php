@@ -15,8 +15,8 @@
 
 <body>
     <?php
-    include('php/_config.php');
-    include('php/_navbar.php');
+    include('partials/_config.php');
+    include('partials/_navbar.php');
 
     $error = false;
     // Fetch movie details

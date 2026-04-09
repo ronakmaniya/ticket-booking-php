@@ -1,6 +1,6 @@
 <?php
-include('php/_config.php');
-include('php/_navbar.php');
+include('partials/_config.php');
+include('partials/_navbar.php');
 
 if (!isset($_GET['id'])) {
     header("Location: index.php");

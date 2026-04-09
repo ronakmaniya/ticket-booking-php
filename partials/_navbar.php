@@ -39,7 +39,7 @@ if (!isset($_SESSION['email'])) {
         <div class="container-fluid">
             <!-- logo of website visible here -->
             <a class="navbar-brand" href="home.php">
-                <img src="graphics/indian.png" alt="Logo" width="50px" height="50px"> 
+                <img src="static/indian.png" alt="Logo" width="50px" height="50px"> 
             </a>
 
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -62,7 +62,7 @@ if (!isset($_SESSION['email'])) {
                     ?>
                     <!-- logout button for user to logged out -->
                     <li class="nav-item">
-                        <a class="nav-link" href="php/logout.php">Log Out</a>
+                        <a class="nav-link" href="partials/logout.php">Log Out</a>
                     </li>
                 </ul>
                 <!-- name of user displayed here -->
